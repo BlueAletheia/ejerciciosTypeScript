@@ -1,0 +1,25 @@
+{
+  "name": "rxjs-dev",
+  "version": "1.0.0",
+  "description": "A tutorial for exmaple",
+  "main": "index.ts",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --port=8082",
+    "dev": "nodemon ./src/index.ts"
+  },
+  "dependencies": {
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-dev-server": "^3.8.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "css-loader": "^3.2.0",
+    "nodemon": "^2.0.19",
+    "ts-loader": "^6.1.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "author": "",
+  "license": "ISC"
+}
